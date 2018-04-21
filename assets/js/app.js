@@ -10,7 +10,7 @@ var search = "&q=";
 
 //Player array for inital buttons
 var playerArr = ["James Harden", "Kobe Bryant", "Paul George", "Ben Simmons"];
-var gifCount = 0;
+var gifCount = 5;
 //App Functions
 //====================//
 
@@ -62,9 +62,9 @@ function displayPlayer()  {
                 var playerGif = $("<img>");
                 var playerStill = $("<img>");
                 //Properties: images, (size), url
-                playerStill.attr("src", results[i].images.fixed_height_still.url);
+                playerStill.attr("src", results[i].images.fixed_width_still.url);
                 playerStill.addClass("player-image")
-                playerGif.attr("src", results[i].images.fixed_height.url)
+                playerGif.attr("src", results[i].images.fixed_width.url)
                 playerGif.addClass("player-image hidden");
                 //append to pladyer div
                 playerDiv.append(p);
