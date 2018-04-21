@@ -3,7 +3,7 @@
 
 //Variables for queryURL
 var apiKey = "C0zCVuhMYgtp80kMa0hduvzlKmcAxbuY";
-var urlBase = "http://api.giphy.com/v1/gifs/search?api_key=";
+var urlBase = "https://api.giphy.com/v1/gifs/search?api_key=";
 var search = "&q=";
 // var limit = "&limit=";
 // var limitInput = 0;
