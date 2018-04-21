@@ -17,6 +17,8 @@ body  {
 .content  {
     background-color: #eeeeee;
     height: 100%;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
 }
 
 form  {
@@ -36,6 +38,22 @@ form  {
     background-color: red;
     margin: 15px;
 }
+
+.player-div  {
+    display: block;
+    margin: 0 auto;
+}
+
+.player-image:hover  {
+    box-shadow: 2px 2px 4px #000000;
+
+}
+
+.player-image  {
+    display: block;
+    height: 100%;
+}
+
 
 .clearfix::after {
     content: "";

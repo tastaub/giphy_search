@@ -5,12 +5,11 @@
 var apiKey = "C0zCVuhMYgtp80kMa0hduvzlKmcAxbuY";
 var urlBase = "https://api.giphy.com/v1/gifs/search?api_key=";
 var search = "&q=";
-// var limit = "&limit=";
-// var limitInput = 0;
 
 //Player array for inital buttons
-var playerArr = ["James Harden", "Kobe Bryant", "Paul George", "Ben Simmons"];
-var gifCount = 5;
+var playerArr = ["2018 NBA Playoffs", "Funny NBA Fans", "NBA Dunks", "Robin Lopez Mascots", "Joel Embiid"];
+var gifCount = 10;
+
 //App Functions
 //====================//
 
@@ -55,7 +54,7 @@ function displayPlayer()  {
             for(i = 0; i < results.length; i++)  {
                 //Create a div for player gifs and tags
                 var playerDiv = $("<div>");
-                playerDiv.addClass("player-div col-xs-12 col-sm-6");
+                playerDiv.addClass("player-div col-xs-12 col-sm-4 col-md-3");
 
 
                 var p = $("<p>").text("Rating: " + results[i].rating);
