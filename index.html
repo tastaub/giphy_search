@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+    <title>Giphy Search</title>
+
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+      crossorigin="anonymous">
+      <link rel="stylesheet" href="assets/css/style.css">
+
+  </head>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h1>NBA Giphy Search</h1>
+      </div>
+    </div>
+    <div class="container content">
+      <div class="row col-xs-12">
+          <form>
+            <div class="form-group">
+              <label for="search-input">Add a Player</label>
+              <input type="text" class="form-control" id="search-input">
+            </div>
+            <button type="submit" class="btn btn-default" id="player-submit">Submit</button>
+          </form>
+          <div class="row">
+            <button class="btn btn-primary gif-count col-xs-12 col-sm-3" id="gif-count3" value=3>3 GIFS</button>
+            <button class="btn btn-primary gif-count col-xs-12 col-sm-3" id="gif-count5" value=5>5 GIFS</button>
+            <button class="btn btn-primary gif-count col-xs-12 col-sm-3" id="gif-count10" value=10>10 GIFS</button>
+            <span id="gif-count-div" class="col-xs-12">Choose how many GIFS you want.</span>
+          </div>
+
+
+          <div id="button-area" class="row"></div>
+          <div id="gif-area" class="row"></div>
+      </div>
+
+    </div>
+
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="assets/js/app.js"></script>
+  </body>
+</html>

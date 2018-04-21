@@ -1,0 +1,49 @@
+.hidden  {
+    display: none;
+}
+
+body  {
+    background-image: url("../images/courtBack.jpg");
+}
+
+.jumbotron  {
+    text-align: center;
+    background-image: url("../images/nba-back.jpg");
+    background-size: cover;
+    color: #cccccc;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+.content  {
+    background-color: #eeeeee;
+    height: 100%;
+}
+
+form  {
+    margin-top: 15px;
+}
+
+.btn-primary  {
+    margin: 10px;
+}
+
+#gif-count-div  {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#player  {
+    background-color: red;
+    margin: 15px;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+p  {
+    font-size: 12px;
+    font-weight: bold;
+}
